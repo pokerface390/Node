@@ -18,7 +18,7 @@ http.createServer((req, res) => {
     }
     else {
         res.writeHead(200, {'Content-Type': 'text/plain'});
-        res.end('Hola mi profe bernardo desde node!');
+        res.end('Todos los cambios se han realizado');
     }
 }).listen(5000,()=>{
     console.log('Servidor Node.js corriendo en http://localhost:5000');
